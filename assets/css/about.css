@@ -1,0 +1,241 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --poppins: "poppins", sans-serif;
+}
+body {
+    background-color: #F6F3F3;
+}
+.daf {
+    margin-left: 140px;
+    margin-top: -180px;
+    position: relative;
+    top: -25px;
+}
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    height: 40px;
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -20px;
+    transform: translateX(8px);
+}
+nav ul {
+    list-style:none;
+    text-align: center;
+    margin-top: -65px;
+    margin-left: 600px;
+}
+nav ul li {
+    display: inline-flex;
+}
+ nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    transition: 0.5s ease-in-out;
+    font-family:var(--poppins);
+    font-size: 18px;
+}
+.ref {
+    margin-left: 160px;
+    background-color: white;
+    border-radius: 7px;
+    height: 30px;
+    color: black;
+}
+nav button:hover {
+    color: white;
+    background-color: red;
+}
+nav ul li a:hover {
+    padding: 10px;
+   background-color: red;
+   color: white;
+   border-radius: 7px;
+}
+nav h1 {
+    font-family:var(--poppins);        
+    margin-top: 3px;
+}
+.plane {
+    margin-top: -70px;
+    margin-left: 850px;
+}
+.john {
+    margin-top: -380px;
+    width: 867.9px;
+}
+.abouttext {
+    margin-left: 30px;
+    font-family: var(--poppins);
+    font-size: 18px;
+}
+.abouttext2 {
+    margin-left: 30px;
+    font-family: var(--poppins);
+    font-size: 18px; 
+} 
+.virus {
+width: 1500px;
+}
+.uio {
+    padding: 30px;
+}
+.poy {
+    position: absolute;
+    top: 60px;
+    margin-left: 380px;
+    font-family: var(--poppins);
+    font-size: 60px;
+    color: black;
+}
+.lik {
+    font-size: 30px;
+    font-family: var(--poppins);
+    margin-left: 600px;
+}
+.lik::first-line {
+    color: #02026F;
+}
+.kil {
+    margin-top: -71px;
+    font-size: 30px;
+    font-family: var(--poppins);
+    margin-left: 752px;
+}
+.vfg {
+margin-left: 35px;
+margin-top: 30px;
+}
+.ops {
+    margin-top: 60px;
+    display: flex;
+    margin-right: 100px;
+}
+.top {
+    margin-left: 60px;
+    font-family: var(--poppins);
+    font-weight: normal;
+}
+.SEVEN{
+    font-family: var(--poppins);
+    margin-left: 130px;
+}
+.dolor {
+    text-align: center;
+    font-family: var(--poppins);
+}
+.pin {
+    margin-left: 100px;
+    border-radius:10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    width: 300px;
+    height: 400px;
+}
+footer{
+    background-color: rgb(66, 56, 56);
+    height: 380px;
+    margin-left: -10px;
+    margin-right: -7px;
+    padding-top: 15px;
+    margin-top: 240px;
+}
+.sars {    color: white;
+    margin-left: 570px;
+    display: grid;
+    grid-template-rows: repeat(4,30px);
+}
+.war {
+    color: white;
+    margin-left: 570px;
+    margin-top: -200px;
+    font-size: 20px;
+    font-family: var(--poppins);
+
+}
+.king {
+    font-family: var(--poppins);
+    color: white;
+    text-decoration: none;
+}
+.npf {
+    color: white;
+    margin-left: 870px;
+    margin-top: -163px;
+    font-size: 20px;
+    font-family:var(--poppins);
+}
+.nia {
+    color: white;
+    margin-left: 870px;
+    display: grid;
+    grid-template-rows: repeat(4,30px);
+}
+.theo {  
+    color: white;
+    margin-left: 1270px;
+    margin-top: -163px;
+    font-size: 20px;
+    font-family: var(--poppins);
+}
+.sss {
+    color: white;
+    margin-left: 1270px;
+    display: grid;
+    grid-template-rows: repeat(4,30px);
+}
+hr{
+    margin-top: 48px;
+}
+.ksb{
+    color: white;
+    /* margin-left: 1094px; */
+}
+.rat {
+    position: relative; 
+    /* height: 200px;
+    width: 1400px; */
+    margin-left: -25px;
+    margin-right: -5px;
+}
+.WED {
+    font-size: 39px;
+    font-family: var(--poppins);
+    font-weight: bolder;
+    position: absolute;
+    top: 130px;
+    left: 500px;
+}
+.ned {
+    font-size: 20px;
+    font-family:var(--poppins);
+}
+.ferg {
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    margin-left: 70px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: white;
+    }
+.grek {
+    font-family:var(--poppins);
+    margin-left: 30px;
+    color: white;
+    font-weight:bolder;
+}
+.daft {
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: var(--poppins);
+}
