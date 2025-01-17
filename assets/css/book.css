@@ -148,10 +148,10 @@ video{
     margin-left: -15px;
     margin-top: 50px;
     transform: translateY(-376px); 
-    width: 1590px;
+    width: 1765px;
 }
 form {
-    margin-left: 310px;
+    margin-left: 410px;
     position: absolute;
     top: 407px;
     background-color: black;
@@ -269,3 +269,4 @@ hr{
     font-size: 20px;
     font-family: var(--poppins);
 }
+

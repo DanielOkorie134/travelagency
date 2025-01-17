@@ -36,6 +36,11 @@ nav {
     
 
 }
+.hammm{
+    width: 30px;
+    display: none;
+}
+
 body {
      background-color: #dadada;
 }
@@ -426,11 +431,17 @@ input{
     width: 100px;
 }
 .yp{
-    margin-left: 180px;
-    width: auto;
-}
+
+    justify-self: center;
+    justify-content: center; 
+    align-self: center;
+    
+} 
 footer{
 width: fit-content;
+margin-left:-10px;
+margin-right: -8px;
+
 }
 .grek{
     font-size: 15px;
@@ -448,7 +459,7 @@ width: fit-content;
     font-size: 12px;
 }
 .npf{
-    margin-top: -149px;
+    margin-top: -154px;
     margin-left: 410px;
     font-size: 15px; 
 }
@@ -457,12 +468,105 @@ width: fit-content;
     font-size: 12px;   
 }
 .theo{
-    margin-top: -150px;
+    margin-top: -158px;
     margin-left: 540px;
     font-size: 15px; 
 }
 .sss{
+    margin-top: -5px;
     margin-left: 540px;
     font-size: 12px;  
+}
+}
+@media(max-width :700px){
+    .ferg{
+        width: fit-content;
+        transform: translateX(50px);
+    }
+    nav{
+        width: 650px;
+    }
+    .hammm{
+        display: block;
+    }
+    nav .ull{
+        padding-top: 10px;
+        margin-top: -300px;
+        margin-left: 199px;
+        transition: all 0.3s ease-in; 
+        width: 230px;
+        
+        
+    }
+    nav ul{
+
+    }
+    nav ul li {
+        padding-bottom: 17px;
+        z-index: 999px;
+        display: grid;
+    }
+    nav .ull.active{
+        
+        box-shadow: 8px 0px 12px;
+        width: 230px;
+        margin-left: 199px;
+        transform: translateY(297px);
+        display: block;
+        z-index: -1px;
+        opacity: 85%;
+        background-color: white;
+    }
+    .yp{
+        margin-left:150px ;
+    }
+    footer{
+        width: fit-content;
+    }
+    .closesed {
+      display: none;
+    }
+    .closesed.active{
+        transform: translateY(-19px);
+        margin-left: 350px;
+        display: block;
+        font-size: 23px;
+    }
+    .barses{
+        margin-left: 350px;
+        margin-top: -20px;
+        display: block;
+        font-size: 23px;
+    }
+    .barses.active{
+        display: none;
+    }
+
+}
+
+@media(max-width :600px){
+    .yp{
+        margin-left: 230px;
+    }
+}
+
+@media(max-width :550px){
+    .yp{
+        margin-left: 290px;
+    }
+}
+
+@media(max-width :500px){
+    .yp{
+        margin-left: 330px;
+    }
+}
+
+@media(max-width :450px){
+    .yp{
+        margin-left: 370px;
+}
+footer{
+    margin-top: 130px;
 }
 }

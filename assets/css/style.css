@@ -1,11 +1,16 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
     --poppins: "poppins", sans-serif;
 }
+body {
+    background-color: #dadadd;
+}
 .daf {
     position: relative;
-    margin-left: 160px;
+    margin-left: 8px;
     margin-top: -70px;
     transform: translateY(-20px);
 }
@@ -23,26 +28,26 @@ nav {
     /* transform: translateX(8px); */
 }
 nav h1{
-    padding-top: 20px;
+    padding-top: 10px;
     /* margin-top: 200px; */
-    margin-left: 20px;
+    margin-left: 70px;
 }
 nav ul {
     list-style:none;
     text-align: center;
-    margin-top: -65px;
+    margin-top: -75px;
     margin-left: 600px;
 }
 nav ul li {
     display: inline-flex;
 }
- nav ul li a {
+nav ul li a {
     text-decoration: none;
     color: black;
     margin-left: 50px;
     transition: 0.5s ease-in-out;
     font-family: var(--poppins);
-    font-size: 18px;
+    font-size: 16px;
 }
 .ref {
     margin-left: 160px;
@@ -57,62 +62,41 @@ nav button:hover {
 }
 nav ul li a:hover {
     padding: 10px;
-   background-color: red;
-   color: white;
-   border-radius: 7px;
+    background-color: red;
+    color: white;
+    border-radius: 7px;
 }
-
-.ham{
-    display: none;
-    width: 30px;
-    margin-top: -70px;
-    margin-left: 80%;
-}
-.ham i{
-    cursor: pointer;
-    font-size: 30px;
-}
-.ham .fa-bars{
-    display: block;
-}
-.ham .fa-bars.active{
+.hammm{
     display: none;
 }
-.ham .fa-close{
-    display: none;
-}
-.ham .fa-close.active{
-    display: block;
-}
-
 .ajax{
     margin-top: 100px;
 }
- .wed {
+.wed {
     padding-top: 30px;
     height: 65vh;
-    width: 1585px;
+    width: 100%;
     margin-top: -750px;
-    margin-left: -10px;
-    margin-right: -5px;
- }
- .bi{
+    margin-left: 0px;
+    margin-right:0px;
+}
+.bi{
     margin-top: -15px;
-
- }
- .lay{
+}
+.lay{
+    margin-top: -25px;
     background-color: black;
     opacity: 50%;
     height: 65.5vh;
-    width: 1585px;
     padding: 0px;
-    margin-left: -10px;
- }
- .dir {
+    margin-left:0px;
+    width: 100%;
+}
+.dir {
     position: absolute;
     font-family: var(--poppins);
     margin-top: -145px;
-    margin-left: 680px;
+    margin-left: 750px;
     padding-top: 20px;
     text-align: center;
     color: white;
@@ -120,8 +104,8 @@ nav ul li a:hover {
     width: 160px;
     height: 40px;
     border-radius: 7px;
- }
- .neji {
+}
+.neji {
     margin-top: 100px;
     position: absolute;
     text-align:center ;
@@ -130,40 +114,39 @@ nav ul li a:hover {
     font-family:var(--poppins);
     font-size: 24px;
     color: white;
- }
- .real {
+}
+.real {
     margin-top: 100px;
     position: absolute;
     text-align: center;
     top: 120px;
-    left: 570px;
+    left: 670px;
     font-family: var(--poppins);
     font-size: 35px;
     color: white;
     font-weight: bolder;
- }
- .year {
-   position: absolute;
-   top: 100px;
-   left: 1120px;
- }
- .cab{
+}
+.year {
+    position: absolute;
+    top: 100px;
+    left: 1120px;
+}
+.cab{
     margin-left: 750px;
     position: absolute;
     top: 450px;
-
- }
- .tab {
+}
+.tab {
     height: 30px;
     width: 260px;
     border-radius: 6px;
- }
- .bat {
+}
+.bat {
     height: 30px;
     width: 230px;
     border-radius: 6px;
- }
- .fed {
+}
+.fed {
     position: absolute;
     background-color: white;
     top: 450px;
@@ -173,51 +156,62 @@ nav ul li a:hover {
     animation: both;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    
- }
- .fifa {
+}
+.fifa {
     font-family: var(--poppins);
- }
- .ret {
+}
+.ret {
     margin-left: 150px;
- }
- .sal {
+}
+.rec{
+    margin-left: 150px
+}
+.rey{
+    margin-left: 150px
+}
+.rez{
+    margin-left: 150px;
+}
+.ren{
+    margin-left: 150px;
+}
+.sal {
     font-family: 'Segoe UI';
     margin-top: -140px;
     margin-left: 10px;
- }
- .start {
+}
+.start {
     margin-top: -15px;
     margin-left:10px;
     font-size: 14px;
- }
- .wer {
+}
+.wer {
     color: red;
     font-weight: normal;
     margin-left: 135px;
     margin-top: -47px;
     font-size: 20PX;
- }
- .rea {
+}
+.rea {
     color: black;
     font-weight: normal;
     margin-left: 178px;
     margin-top: -44px;
     font-family:'Segoe UI';
     font-size: 19PX;
- }
- .dan {
+}
+.dan {
     margin-left: 10px;
- }
- .joey {
+}
+.joey {
     margin-top: 130px;
     background-color: white ; 
     margin-left: -10px;
     margin-right: -8px;
     padding-bottom: 80px;
     height: 1200px;
- }
- .ter {
+}
+.ter {
     margin-left: 130px;
     font-family: var(--poppins);
     text-align: center;
@@ -233,19 +227,69 @@ nav ul li a:hover {
     border-radius: 7px;
     position: absolute;
     top: 1480px;
-  
- }
- .terr {
+}
+.tez{
+    margin-left: 130px;
+    font-family: var(--poppins);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    /* padding: 10px; */
+    padding-bottom: -300px;
+    margin-top: 235px;
+    background-color: red;
+    width: 110px;
+    height: 30px;
+    border-radius: 7px;
+    position: absolute;
+    top: 1460px;
+}
+.teb{
+    margin-left: 130px;
+    font-family: var(--poppins);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    /* padding: 10px; */
+    padding-bottom: -300px;
+    margin-top: 235px;
+    background-color: red;
+    width: 110px;
+    height: 30px;
+    border-radius: 7px;
+    position: absolute;
+    top: 1460px;
+}
+.teh{
+    margin-left: 130px;
+    font-family: var(--poppins);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    /* padding: 10px; */
+    padding-bottom: -300px;
+    margin-top: 235px;
+    background-color: red;
+    width: 110px;
+    height: 30px;
+    border-radius: 7px;
+    position: absolute;
+    top: 1460px;
+}
+.terr {
     /* margin-left: 60px; */
     display: flex;
- }
- .nad {
+}
+.nad {
     margin-left: 10px;
- }
- .killua {
+}
+.killua {
     display: flex;
- }
- .gter {
+}
+.gter {
     margin-left: 130px;
     font-family: var(--poppins);
     text-align: center;
@@ -260,37 +304,35 @@ nav ul li a:hover {
     height: 30px;
     border-radius: 7px;
     position: absolute;
-    top: 972px;
- }
- .namek {
+    top: 969px;
+}
+.namek {
     background-color: white;
     height: 150px;
     width: 248px;
     margin-top: -5px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
- }
- .gru {
+}
+.gru {
     margin:0px ;
     border-style: solid;
- }
- .cit {
+}
+.cit {
     font-family: var(--poppins);
     font-size: 35px;
- }
- .jik {
+}
+.jik {
     display:flex;
     margin-left: -90px;
-
- }
- 
-.grill {
-    margin-left: 76px;
-    
-    
 }
-body {
-    background-color: #dadadd;
+.jic{
+    display:flex;
+    margin-left: -90px;
+}
+.grill {
+    margin-top: 40px;
+    margin-left: 76px;
 }
 .WEMA {
     margin-left: -150px; 
@@ -322,17 +364,17 @@ body {
 }
 .lee{
     margin-top: 470px;
-   margin-left: 330px;
-   font-family: var(--poppins);
-   text-decoration: none;
-   color: black;
-   font-size: 21px;
-   font-weight: bold;
+    margin-left: 330px;
+    font-family: var(--poppins);
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
 }
 .derf {
-   border-radius: 200px;
-   margin-left: 150px;
-   margin-top: -750px;
+    border-radius: 200px;
+    margin-left: 150px;
+    margin-top: -750px;
 }
 .redf {
     margin-top:-750px ;
@@ -350,7 +392,7 @@ body {
     margin-left: 1170px;
     font-size: 20px;
     font-family:var(--poppins);
-    margin-top: 160px;
+    margin-top: 60px;
 }
 .fix {
     transform: translateY(200px);
@@ -374,7 +416,7 @@ body {
     border-radius: 7px;
 }
 .rid {
-    margin-top: 35px;
+    margin-top: 39px;
 }
 .xic {
     margin-left: 470px;
@@ -392,7 +434,7 @@ body {
     margin-left: 40px;
     font-size: 20px;
     font-family: var(--poppins);
-    margin-top: -320px;
+    margin-top: -400px;
 }
 .maldives {
     text-align: center;
@@ -469,7 +511,6 @@ body {
 .white {
     margin-left: 60px;
     margin-top: 16px;
-
 }
 .GR {
     margin-left: 500px; 
@@ -482,9 +523,9 @@ body {
     margin-left: 40px;
     font-weight: bolder;
     font-family: var(--poppins);
-
 }
 .daft {
+    transform: translateY(-15px);
     color: white;
     margin-left: 40px;
     font-size: 20px;
@@ -493,10 +534,10 @@ body {
 footer{
     background-color: rgb(66, 56, 56);
     height: 380px;
-    margin-left: -10px;
+    width: 100%;
+    margin-left: 0px;
     margin-right: -7px;
     padding-top: 15px;
-    margin-top: 0px;
 }
 h1{
     font-family: var(--poppins);
@@ -513,7 +554,6 @@ h1{
     margin-top: -200px;
     font-size: 20px;
     font-family: var(--poppins);
-
 }
 .king {
     font-family: var(--poppins);
@@ -536,67 +576,852 @@ h1{
 .theo {
     color: white;
     margin-left: 1270px;
-    margin-top: -163px;
+    margin-top: -170px;
     font-size: 20px;
     font-family: var(--poppins);
 }
 .sss {
     color: white;
-    margin-left: 1270px;
+    margin-left: 1170px;
     display: grid;
     grid-template-rows: repeat(4,30px);
 }
-
 hr{
     margin-top: 48px;
+    width: 100%;
 }
 .john {
+    margin-top: -10px;
     width: 800px;
 }
 .ksb{
     color: white;
     font-family: var(--poppins);
     /* margin-left: 1094px; */
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media(min-width: 200px){
-
-    
-
-     nav {
-        width: 100%;
-        padding: 0px;
-        /* margin-top: -20px; 
-     }
-    nav ul{
-
-        padding-top: 10px;
+            } 
+/* Responsive styles for screen width 1000px */
+ @media (max-width: 1000px) {
+    .daf {
+        margin-left: 160px;
+        transform: translateY(-28px);
+    }
+    nav h1 {
+       
+        margin-left: 30px;
+    }
+    nav ul {
+        margin-left : 210px;
+        display: flex;
+        flex-direction: row; /* Ensure items are displayed horizontally */
+        margin-top: -60px;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 0 10px; /* Maintain space between items */
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+    nav ul li a:hover{
         background-color: red;
+        height: 18px;
+    }
+    .ferg{
+        margin-top: -7px;
+    }
+    .hammm {
+        display: none;
+        margin-left: 10px;
+    }
+    .ajax {
+        margin-top: 150px;
+    }
+    .wed {
         width: 100%;
-        margin-top: -200px;
+        height: 450px;
+        margin-top: -505px;
+        margin-left: 0;
+    }
+    .lay {
+        height: 450px;
         margin-left: 0px;
-        transition: all 0.3s ease-in-out;
+        margin-top: -50px;
+        width: 100%;
+    }
+    .real, .neji {
+        margin-top: 100px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 10px;
+    }
+    .dir {
+        background-color: red;
+        margin-top: -110px;
+        width: 100px;
+        height: 45px;
+        transform: translateX(-300px);
+        padding: 0;
+    }
+    .real {
+        font-size: 28px;
+    }
+    .neji {
+        font-size: 18px;
+    }
+    .jic {
+        display: flex;
+    }
+    .jik{
+        justify-content: center;
+        display: none;
+    }
+    .rec {
+        margin-left: 290px;
+    }
+    .rey{
+        margin-left: 100px;
+    }
+    .rez{
+        margin-top: 500px;
+        margin-left: -600px;
+    }
+    .ren{
+        margin-top: 500px;
+        margin-left: 105px;
+    }
+    .ter{
+        margin-top: -270px;
+    }
+    .tez{
+        margin-top: -260px;
+    }
+    .teb{
+        margin-top: 240px;
+    }
+    .teh{
+        margin-top: 240px;
+    }
+    .ferd{
+        margin-left: 100px;
+        width: 200px;
+        height: 200px;
+    }
+    .redf{
+        margin-left: 100px;
+        width: 200px;
+        height: 200px;
+    }
+    .derf{
+        margin-left: 100px;
+        width: 200px;
+        height: 200px;
+    }
+    .joey {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .grill {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .grill img {
+        margin-left:100px;
+        margin-top: -30px;
+    }
+    .WEMA{
+    display: flex;
+    margin-left: -50px;
+    }
+    .WEMA a{
+    font-size: 17px;
+    margin-left: 215px;
+    }
+    .maldives{
+        margin-left: -600px;
+        font-size: 15px;
+    }
+    .top{
+        margin-top: -335px;
+        font-size: 15px;
+    }
+    .pot{
+        margin-top: 130px;
+        margin-left: 610px;
+        font-size: 15px;
+    }
+    .rid{
+        margin-top: 70px;
+        margin-left: -90px;
+    }
+    .rid a{
+        margin-left: 210px;
+    }
+    .fix{
+        margin-top: 130px;
+    }
+    .cit {
+        font-size: 24px;
+    }
+    .grek{
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    .daft{
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    /* footer section    */
+    .war{
+        margin-top: -143px;
+        margin-left: 340px;
+        font-size: 18px;
+    }
+    .sars{
+        font-size: 15px;
+        margin-left: 345px;
+    }
+    .npf{
+        margin-top: -158px;
+        margin-left: 530px;
+        font-size: 18px;  
+    }
+    .nia{
+        font-size: 15px;
+        margin-left: 530px; 
+    }
+    .theo{
+        margin-top: -159px;
+        margin-left: 720px;
+        font-size: 18px; 
+    }
+    .sss{
+        font-size: 15px;
+        margin-left: 720px;  
+    }
+    footer {
+        height: 300px;
+        margin-left: 0px;
+        padding-top: 20px;
+        text-align: left;
+    }
+    footer h3, footer li, footer p {
+        margin: 10px 0;
+    }
+}
+@media (max-width:900px) {
+.ferg{
+        margin-left: 30px;
+    }
+nav ul li a {
+    padding-left: -10px;
+    font-size: 13px;
+}
+.ferd{
+  position: relative;
+  top: -93px;
+  left: 247px;
+
+}
+.redf{
+  display: none;
+  
+}
+.rock, .terry {
+  display: none;
+}
+.lee{
+  display: none;
+}
+.derf{
+  display: none;
+} 
+.maldives, .pot{
+  display: none;
+} 
+.top{
+  margin-top: 90px;
+}
+.xif, .xic{
+  display: none;
+}  
+.fix{
+  position: relative;
+  top: 200px;
+  left: 290px;
+}
+.john{
+  margin-top: 250px;
+  width: 89%;
+} 
+    footer{
+        width: 100%;
+        margin-left:0px;
+        margin-right: -8px;
+        
+        }
+        .grek{
+            font-size: 16px;
+            margin-left: 50px;
+        }
+        .daft{
+            font-size: 13px;
+            margin-left: 40px;
+            padding-top: 10px;
+        }
+      .war{
+            margin-top: -133px;
+            margin-left: 312px;
+            font-size: 16px;
+        }
+        .sars{
+            margin-top: -10px;
+            align-items: center;
+            margin-left: 312px;
+            font-size: 13px;
+        }
+        .npf{
+            margin-top: -144px;
+            margin-left: 480px;
+            font-size: 16px; 
+        }
+        .nia{
+            margin-left: 480px;
+            font-size: 13px;   
+        }
+        .theo{
+            margin-top: -158px;
+            margin-left: 630px;
+            font-size: 16px; 
+        }
+        .sss{
+            margin-top: -5px;
+            margin-left: 630px;
+            font-size: 13px; 
+    }
+  
+
+}
+@media (max-width:850px) {
+    
+    .hammm{
+        display: block;
+    }
+    nav .ull{
+        margin-left: 558px;
+        margin-top: -750px;
+        box-shadow: 8px 0px 12px;
+        width: 230px;
+        transform: translateY(297px);
+        display: block;
+        z-index: -1px;
+        opacity: 85%;
+        background-color: white;
+        transition: all 0.6s ease-in-out;
+      
+        
+        
+    }
+    nav ul{
+    
+    }
+    nav ul li {
+        padding-bottom: 17px;
+        z-index: 999px;
+        display: grid;
     }
     nav .ull.active{
-        margin-top: 25px;
+        margin-top: -289px;
+        box-shadow: 8px 0px 12px;
+        width: 200px;
+        margin-left: 558px;
+        display: block;
+        z-index: -1px;
+        opacity: 85%;
+        background-color: white;
+        padding-right: 20px;
     }
-    .ajax{
+    .neji{
+        margin-top: 100px;
+        font-size: 16px;
+    }
+    .wed, .lay {
         width: 100%;
     }
-    .sis{
+    .dir{
+        display: none;
+    }
+    .ferg{
+        margin-left: 37px;
+    }
+    .closesed {
+        display: none;
+      }
+      .closesed.active{
+        cursor: pointer;
+          transform: translateY(-19px);
+          margin-left: 700px;
+          margin-top: -40px;
+          display: block;
+          font-size: 23px;
+      }
+      .barses{
+        cursor: pointer;
+          margin-left: 700px;
+          margin-top: -60px;
+          display: block;
+          font-size: 23px;
+      }
+      .barses.active{
+          display: none;
+      }
+.ferd{
+    transform: translateX(-29px);
+}
+.fix{
+position: relative;
+left: 256px;
+}
+
+.rec{
+    margin-left: 200px;
+}
+footer{
+    width: 100%;
+    margin-left:0px;
+    margin-right: -8px;
+    
+    }
+    .grek{
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    .daft{
+        font-size: 13px;
+        margin-left: 40px;
+        padding-top: 10px;
+    }
+  .war{
+        margin-top: -133px;
+        margin-left: 312px;
+        font-size: 16px;
+    }
+    .sars{
+        margin-top: -10px;
+        align-items: center;
+        margin-left: 312px;
+        font-size: 13px;
+    }
+    .npf{
+        margin-top: -144px;
+        margin-left: 480px;
+        font-size: 16px; 
+    }
+    .nia{
+        margin-left: 480px;
+        font-size: 13px;   
+    }
+    .theo{
+        margin-top: -158px;
+        margin-left: 630px;
+        font-size: 16px; 
+    }
+    .sss{
+        margin-top: -5px;
+        margin-left: 630px;
+        font-size: 13px; 
+}
+}
+@media (max-width: 800px){
+    .ferg{
+        width: fit-content;
+        transform: translateX(50px);
+    }
+  nav {
+    width:fit-content;
+  }
+    .hammm{
+        display: block;
+    }
+    nav .ull{
+        margin-left: 558px;
+        margin-top: -750px;
+        box-shadow: 8px 0px 12px;
+        width: 230px;
+        transform: translateY(297px);
+        display: block;
+        z-index: -1px;
+        opacity: 85%;
+        background-color: white;
+        transition: all 0.6s ease-in-out;
+        
+        
+    }
+    nav ul{
+    
+    }
+    nav ul li {
+        padding-bottom: 17px;
+        z-index: 999px;
+        display: grid;
+    }
+    nav .ull.active{
+        margin-top: -289px;
+        box-shadow: 8px 0px 12px;
         width: 200px;
+        margin-left: 558px;
+        display: block;
+        z-index: -1px;
+        opacity: 85%;
+        background-color: white;
+        padding-right: 20px;
+    }
+    .neji{
+        margin-top: 100px;
+        font-size: 16px;
+    }
+    .wed, .lay {
+        width: 100%;
+    }
+    .dir{
+        display: none;
+    }
+    .ferg{
+        margin-left: 37px;
+    }
+    .closesed {
+        display: none;
+      }
+      .closesed.active{
+        cursor: pointer;
+          transform: translateY(-19px);
+          margin-left: 689px;
+          margin-top: -40px;
+          display: block;
+          font-size: 23px;
+      }
+      .barses{
+        cursor: pointer;
+          margin-left: 689px;
+          margin-top: -60px;
+          display: block;
+          font-size: 23px;
+      }
+      .barses.active{
+          display: none;
+      }
+      .rec{
+        margin-left: 170px;
+      }
+      .ferd{
+        position: relative;
+        top: -93px;
+        left: 237px;
+      
+      }
+      .redf{
+        display: none;
+        
+      }
+      .rock, .terry {
+        display: none;
+      }
+      .lee{
+        display: none;
+      }
+      .derf{
+        display: none;
+      } 
+      .maldives, .pot{
+        display: none;
+      } 
+      .top{
+        margin-top: 90px;
+      }
+      .xif, .xic{
+        display: none;
+      }  
+    .fix{
+        position: relative;
+        top: 200px;
+        left: 240px;
+      }
+      .john{
+        margin-top: 250px;
+        width: 89%;
+      }  
+    
+footer{
+    width: fit-content;
+    margin-left:-10px;
+    margin-right: -8px;
+    
+    }
+    .grek{
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .daft{
+        font-size: 12px;
+        margin-left: 50px;
+        padding-top: 10px;
+    }
+  .war{
+        margin-top: -133px;
+        margin-left: 312px;
+        font-size: 15px;
+    }
+    .sars{
+        margin-top: -10px;
+        align-items: center;
+        margin-left: 312px;
+        font-size: 12px;
+    }
+    .npf{
+        margin-top: -144px;
+        margin-left: 430px;
+        font-size: 15px; 
+    }
+    .nia{
+        margin-left: 430px;
+        font-size: 12px;   
+    }
+    .theo{
+        margin-top: -158px;
+        margin-left: 560px;
+        font-size: 15px; 
+    }
+    .sss{
+        margin-top: -5px;
+        margin-left: 557px;
+        font-size: 12px; 
+}
+}
+@media (max-width:750px) {
+    .ferd{
+        position: relative;
+        left: 220px;
+    }
+    .fix{
+        position: relative;
+        left: 220px;
+    }
+  .closesed.active{
+margin-left: 650px;
+  }
+  .barses{
+    margin-left: 650px;
+  }
+  nav .ull.active{
+    margin-left: 65%;
+    padding-left: -30px;
+  }
+  nav .ull{
+    margin-left: 520px;
+  }
+}
+@media (max-width:700px) {
+    .joey{
+        width: 100%;
+    }
+   .barses{
+    margin-left: 90%;
+   }
+   .closesed.active{
+    margin-left: 90%;
+   }
+    nav{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .ferd{
+        position: relative;
+        left: 190px;
+    }
+    .fix{
+        position: relative;
+        left: 190px;
+    }
+    .rec{
+        margin-left: 132px;
+    }
+    .ter{
+        margin-top: -225px;
+    }
+    .tez{
+        margin-top: -225px;
+    }
+    .teb{
+        margin-top: 276px;
+    }
+    .teh{
+        margin-top: 276px;  
+    }
+    .joey{
+        margin-left: 0px;
+    }
+    .grek{
+        display: none;
+        margin-left: -450px;
+    }
+    .daft{
+        display: none;
+        margin-left: -470px;
+    }
+    .war{
+        margin-top: 50px;
+        margin-left: 110px;
+        font-size: 18px;
+    }
+    .sars{
+        margin-left: 110px;
+        font-size: 15px;
+    }
+    .npf{margin-top: 10px;
+        margin-left: 110px;
+        font-size: 18px;
+    }
+    .nia{
+        margin-left: 110px;
+        font-size: 15px;
+    }
+    .theo{margin-top: -30px;
+        margin-left: 110px;
+        font-size: 18px;
+    }
+    .sss{
+        margin-left: 110px;
+        font-size: 15px;
+    }
+    footer{
+        width: 100%;
+        margin-left: 0px;
+        height: 600px;
+    }
+    
+} 
+@media (max-width:650px) {
+    nav {
+        margin-right: 0px;
+    }
+    .rec{
+        margin-left: 100px;
+    }
+    .npf .nia {
+
+    }
+    .theo{
+        
+    }
+    .sss{
+        
+    }
+    .ferd{
+        position: relative;
+        left: 146px;
+    }
+    .fix {
+        position: relative;
+        left: 146px; 
+    }
+    .rec{
+        margin-left: 120px;
+    }
+    .rey{
+        margin-left: 5%;
+    }
+    .rez {
+        margin-left: -527px;
+    }
+    .ren {
+        margin-left: 5%;
+    }
+}
+@media (max-width:600px) {
+    .ferd{
+    position: relative;
+    left: 115px;
+    }
+    .fix{
+        position: relative;
+        left: 115px;
+    }    .ren{
+        display: none;
+    }
+    .rey{
+        display: none;
+    }
+    .rec{
+        margin-left: 250px;
+    }
+    .rez{
+        margin-left: -240px;
+    }
+}
+@media (max-width:550px) {
+    .rec{
+        margin-left: 210px;
+    }
+    .rez{
+        margin-left: -240px;
+    }
+    .ferd{
+        position: relative;
+        left: 88px; 
+    }
+    .fix{
+        position: relative;
+        left: 88px; 
+    }
+}
+@media (max-width:480px) {
+  
+    .war{
+        margin-top: 50px;
+        margin-left: 70px;
+        font-size: 18px;
+    }
+    .sars{
+        margin-left: 70px;
+        font-size: 15px;
+    }
+    .npf{margin-top: 10px;
+        margin-left: 70px;
+        font-size: 18px;
+    }
+    .nia{
+        margin-left: 70px;
+        font-size: 15px;
+    }
+    .theo{margin-top: -30px;
+        margin-left: 70px;
+        font-size: 18px;
+    }
+    .sss{
+        margin-left: 70px;
+        font-size: 15px;
+    }  
+    .rez{
+   margin-left: -240px;
+    }
+    .rec{
+        margin-left: 200px;
+    }
+}
+@media (max-width:450px) {
+    .ferd{
+        position: relative;
+        left: 50px;
+    }
+    .fix{
+        position: relative;
+        left: 50px; 
+    }
+    .rec{
+        margin-left: 170px;
+    }
+    .rez{
 
     }
 }
- */
